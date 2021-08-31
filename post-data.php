@@ -10,8 +10,8 @@
  }
  
  $humidity = $_POST['humid'];
- $persen = ((float)$humidity / 1024.0) * 23.0;
- 
+ $persen = ((float)$humidity / 1024.0) * 100.0;
+ echo($humidity);
  mysqli_query($link,"INSERT INTO tbl_kaktus (humidity, persen) VALUES ($humidity, $persen)");
 ?>
 

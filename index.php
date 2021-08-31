@@ -57,11 +57,6 @@
                                     <span class="hidden-xs">Riwayat</span>
                                 </a>
                             </li>
-							<li class="dropdown user user-menu">
-                                <a href="index.php?m=tentang" >
-                                    <span class="hidden-xs">Tentang</span>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -78,20 +73,11 @@
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                             </a>
                         </li>
-						
 						<li>
                             <a href="index.php?m=riwayat">
-                                <i class="fa fa-user"></i> <span>Riwayat</span>
+                                <i class="fa fa-calendar"></i> <span>Riwayat</span>
                             </a>
                         </li>
-						
-						<li>
-                            <a href="index.php?m=tentang">
-                                <i class="fa fa-calendar"></i> <span>Tentang</span>
-                            </a>
-                        </li>
-
-						
                     </ul>
                 </section>
                 <!-- /.sidebar -->
